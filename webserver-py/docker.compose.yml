@@ -1,0 +1,12 @@
+Datei docker-compose.yml 
+
+    version: '3.8'
+
+    services:
+      ve:
+        image: ve-webserver
+        build:
+          context: .
+          dockerfile: ./Dockerfile
+        ports:  
+          - "8080:8080"
