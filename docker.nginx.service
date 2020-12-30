@@ -1,0 +1,20 @@
+[Unit]
+Description=Docker Nginx Server
+After=network.target
+# After=syslog.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/pi
+RemainAfterExit=yes
+# ExecStart=/home/pi/orientdb/orientdb-tp3-3.1.6/bin/server.sh 
+ExecStart=/usr/local/bin/docker-compose -f "/home/pi/xaas/nginx/docker-compose.yml" up -d --build
+# ExecStart=/usr/local/bin/docker-compose -f "/home/pi/xaas/nginx/docker-compose.yml" up -d 
+# ExecStart=/usr/local/bin/docker-compose up -d 
+ExecStop=/usr/local/bin/docker-compose -f "/home/pi/xaas/nginx/docker-compose.yml" down
+# ExecStop=/usr/local/bin/docker-compose down
+# User=pi
+TimeoutStartSec=0
+
+[Install]
+WantedBy=multi-user.target
