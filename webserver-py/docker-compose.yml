@@ -9,4 +9,5 @@
           context: .
           dockerfile: ./Dockerfile
         ports:  
-          - "8080:8080"
+        # deploy intern port 8080 to extern port 8088
+          - "8088:8080"

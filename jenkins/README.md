@@ -21,6 +21,12 @@
 
     mvn install -DskipTests 
 
+## USB Stick 
+
+- do not format stick  in FAT 
+- use ext3 / ext4 as file format 
+
+
 ## USB Stick ... NOT WOrking 
     lsblk
 
