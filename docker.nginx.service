@@ -1,7 +1,9 @@
 [Unit]
 Description=Docker Nginx Server
-After=network.target
+# After=network.target
 # After=syslog.target
+Requires=docker.service
+After=docker.service
 
 [Service]
 Type=oneshot
