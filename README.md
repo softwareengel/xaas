@@ -1,7 +1,13 @@
 # xaas
 
-xaas docker 
+# docker 
 
+https://maker-tutorials.com/docker-raspberry-pi-installieren-raspbian-debian-stretch-jessie/
+
+  curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
+
+## Test Docker RASPI
+  sudo docker run hello-world
 # python webserver 
 
 # jenkins 
