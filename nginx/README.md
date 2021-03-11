@@ -40,3 +40,5 @@ https://www.domysee.com/blogposts/reverse-proxy-nginx-docker-compose
 https://stackoverflow.com/questions/43671482/how-to-run-docker-compose-up-d-at-system-start-up 
 
 https://mehmandarov.com/start-docker-containers-automatically/ 
+
+https://www.shubhamdipt.com/blog/send-nginx-logs-to-sql-database/
