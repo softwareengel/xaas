@@ -1,8 +1,3 @@
-#  copy in /etc/systemd/system/
-#    sudo systemctl start docker.nginx.service
-#    sudo systemctl enable docker.nginx.service
-#    sudo systemctl daemon-reload
-
 [Unit]
 Description=Docker Nginx Server
 # After=network.target
