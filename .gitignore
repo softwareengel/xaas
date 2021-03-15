@@ -1,3 +1,9 @@
 influxdb/influxdb-1.8.4_linux_armhf.tar.gz
 influxdb/data/meta/meta.db
 
+mysql/mariadb/aria_log_control
+mysql/mariadb/aria_log.00000001
+mysql/mariadb/ib_buffer_pool
+mysql/mariadb/ib_logfile0
+mysql/mariadb/ibdata1
+mysql/mariadb/ibtmp1
