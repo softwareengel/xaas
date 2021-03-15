@@ -12,6 +12,8 @@
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
 
+  git clone https://github.com/softwareengel/xaas
+
 # docker 
 
 https://maker-tutorials.com/docker-raspberry-pi-installieren-raspbian-debian-stretch-jessie/
