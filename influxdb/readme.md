@@ -1,5 +1,7 @@
 # raspi docker influx
 
+TODO: USE: init Skript create-telegraf.iql 
+
     docker run --rm influxdb:1.8 influxd config > influxdb.conf
 
     sed -i 's/^  auth-enabled = false$/  auth-enabled = true/g' influxdb.conf
