@@ -3,8 +3,11 @@
 ## setup PI 
 
   sudo raspi-config --expand-rootfs
+  
   sudo apt-get update
+  
   sudo apt-get upgrade -y
+  
   sudo apt-get autoclean
 
 ## git 
