@@ -45,6 +45,11 @@ docker run -d --name orientdb -p 2424:2424 -p 2480:2480 -e ORIENTDB_ROOT_PASSWOR
 
 https://orientdb.org/download 
 
+## Version 3.1.10
 wget https://s3.us-east-2.amazonaws.com/orientdb3/releases/3.1.10/orientdb-tp3-3.1.10.zip 
 
+## Version 3.1.6 
 wget https://s3.us-east-2.amazonaws.com/orientdb3/releases/3.1.6/orientdb-tp3-3.1.6.zip
+
+## Version 3.2 (not tested)
+https://s3.us-east-2.amazonaws.com/orientdb3/releases/3.2.0/orientdb-tp3-3.2.0.zip 
