@@ -1,6 +1,6 @@
 # OrientDB 
 
-# .service
+# .service ohne Docker 
 Als erstes muss eine .service Datei unter /etc/systemd/system angelegt werden
 
 File: orientdb.service 
@@ -28,17 +28,19 @@ WantedBy=multi-user.target
     sudo systemctl stop orientdb.service
     sudo systemctl disable orientdb.service
 
-## OrientDB Docker 
+## OrientDB Docker - NOT WORKING
 
 docker run -d --name orientdb -p 2424:2424 -p 2480:2480 -e ORIENTDB_ROOT_PASSWORD=rootpwd orientdb
 
 ## Error: 
+
+```  
     pi@raspberrypi:~ $ docker run -d --name orientdb -p 2424:2424 -p 2480:2480 -e ORIENTDB_ROOT_PASSWORD=p orientdb
     Unable to find image 'orientdb:latest' locally
     latest: Pulling from library/orientdb
     docker: no matching manifest for linux/arm/v7 in the manifest list entries.
     See 'docker run --help'.
-
+```
 # Links 
 
 https://orientdb.org/download 
