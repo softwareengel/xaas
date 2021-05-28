@@ -7,7 +7,7 @@
     pi@raspberrypi:~ $ sudo cat /etc/systemd/system/docker.nginx.service 
 
 
-
+``` service 
     [Unit]
     Description=Docker Nginx Server
     # After=network.target
@@ -30,6 +30,7 @@
 
     [Install]
     WantedBy=multi-user.target
+```
 
 ## cmds 
 
