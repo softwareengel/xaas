@@ -1,9 +1,13 @@
 # Nginx Reverse Proxy 
+    
+
 
 ## docker.nginx.service 
 
     pi@raspberrypi:~ $ sudo cat /etc/systemd/system/docker.nginx.service 
 
+
+``` service 
     [Unit]
     Description=Docker Nginx Server
     # After=network.target
@@ -26,9 +30,11 @@
 
     [Install]
     WantedBy=multi-user.target
+```
 
 ## cmds 
 
+    sudo cp docker.nginx.service /etc/systemd/system 
     sudo systemctl start docker.nginx.service
     sudo systemctl enable docker.nginx.service
     sudo systemctl daemon-reload
