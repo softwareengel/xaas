@@ -30,6 +30,10 @@ https://maker-tutorials.com/docker-raspberry-pi-installieren-raspbian-debian-str
 
   sudo docker run hello-world
 
+## change Container start option to restart 
+
+docker update --restart=always <container>
+
 # python webserver 
 
 # jenkins 
