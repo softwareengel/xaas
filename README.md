@@ -30,6 +30,10 @@ https://maker-tutorials.com/docker-raspberry-pi-installieren-raspbian-debian-str
 
   sudo docker run hello-world
 
+## change Container start option to restart 
+
+docker update --restart=always <container>
+
 # python webserver 
 
 # jenkins 
@@ -37,3 +41,11 @@ https://maker-tutorials.com/docker-raspberry-pi-installieren-raspbian-debian-str
 # nginx reverse proxy 
 
   
+##  usb drive 
+sudo apt-get -y install ntfs-3g hfsutils hfsprogs exfat-fuse
+
+  lsblk
+  mount /dev/sda1 /media/usb
+
+[1] https://jankarres.de/2013/01/raspberry-pi-usb-stick-und-usb-festplatte-einbinden/
+[2] https://www.elektronik-kompendium.de/sites/raspberry-pi/1911271.htm

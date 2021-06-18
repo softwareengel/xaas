@@ -1,5 +1,4 @@
-# jenkins
-
+# jenkins on raspi working 
 
     java -version
     sudo apt-get install openjdk-11-jdk
@@ -11,11 +10,12 @@
 
     sudo apt-get install jenkins
 
-    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
     sudo service jenkins start
     sudo service jenkins stop
     sudo service jenkins status
+    
+    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
     sudo apt-get install maven 
 
