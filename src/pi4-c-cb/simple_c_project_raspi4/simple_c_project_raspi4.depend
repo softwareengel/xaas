@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1623753483 source:/home/pi/xaas/src/pi4-c-cb/simple_c_project_raspi4/main.c
+	<stdio.h>
+	<stdlib.h>
+
