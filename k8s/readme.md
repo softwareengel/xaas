@@ -4,8 +4,6 @@
 curl -sfL https://get.k3s.io | sh -
 sudo k3s kubectl get node 
 
-https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
-
 # Links
 https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
