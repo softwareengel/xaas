@@ -19,3 +19,6 @@ mariadb/mariadb/ibdata1
 mariadb/mariadb/ibtmp1
 mariadb/mariadb/multi-master.info
 mariadb/mariadb/tc.log
+prometheus/node_exporter/node_exporter
+.gitignore
+prometheus/node_exporter/NOTICE
