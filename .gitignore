@@ -10,3 +10,12 @@ mysql/mariadb/ibtmp1
 orientdb/orientdb-tp3-3.1.6/
 orientdb/orientdb-tp3-3.1.6.zip
 elk/rpi-docker-elk
+mariadb/mariadb/aria_log_control
+mariadb/mariadb/aria_log.00000001
+mariadb/mariadb/ib_buffer_pool
+mariadb/mariadb/ib_logfile0
+mariadb/mariadb/ib_logfile1
+mariadb/mariadb/ibdata1
+mariadb/mariadb/ibtmp1
+mariadb/mariadb/multi-master.info
+mariadb/mariadb/tc.log
