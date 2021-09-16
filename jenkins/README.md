@@ -21,7 +21,7 @@
 
     mvn install -DskipTests 
 
-## USB Stick 
+## USB Stick
 
 - do not format stick  in FAT 
 - use ext3 / ext4 as file format 
