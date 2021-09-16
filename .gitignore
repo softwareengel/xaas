@@ -22,3 +22,4 @@ mariadb/mariadb/tc.log
 prometheus/node_exporter/node_exporter
 .gitignore
 prometheus/node_exporter/NOTICE
+prometheus/node_exporter-1.2.2.linux-armv7.tar.gz
