@@ -11,6 +11,8 @@ e.g. for Logging nginx (?) only numerical data
     docker run -d -p 9090:9090 --name prom -v /home/pi/xaas/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
 
 Arm7 (Raspi 3,4) , Arm 6 (Raspi 1,2)
+    
+    https://prometheus.io/download/#node_exporter
 
     wget https://github.com/prometheus/node_exporter/releases/download/v1.2.2/node_exporter-1.2.2.linux-armv7.tar.gz
 
