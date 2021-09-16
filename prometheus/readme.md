@@ -1,6 +1,6 @@
 # Prometheus TSDB
 
-For Logging nginx (?) only numerical data 
+e.g. for Logging nginx (?) only numerical data
 
 ##
 
@@ -19,7 +19,6 @@ Arm7 (Raspi 3,4) , Arm 6 (Raspi 1,2)
     mv node_exporter-1.2.2.linux-armv7 node_exporter
 
     sudo nano /etc/systemd/system/node_exporter.service
-
 
 ```
 
@@ -41,6 +40,9 @@ WantedBy=default.target
     sudo systemctl start node_exporter
 
     sudo systemctl enable node_exporter 
+
+    sudo systemctl status node_exporter
+
 
 ## Links
 

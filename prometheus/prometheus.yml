@@ -30,3 +30,7 @@ scrape_configs:
     static_configs:
     - targets: ['localhost:9090']
     - targets: ['192.168.2.35:9100']
+    - targets: ['192.168.2.43:9100']
+    - targets: ['192.168.2.46:9100']
+    - targets: ['192.168.2.49:9100']
+    
