@@ -1,13 +1,11 @@
-# Java 3d
+# nutze jenkins für build 
 
-TODOD
+# Java 3d automat 
+## install jdk 1.8 +
 
-
-# Java JDK 
-
-# c binary 
+download jar 
+download binary 
 
 # start camel 
-
 # 
 
