@@ -1,6 +1,6 @@
 # pgsql on raspi 
 
-## Working : 
+## Working: 
 $ docker run --name mypostgres -e POSTGRES_PASSWORD=p -d  -p 5432:5432 arm32v7/postgres
 
 ## test
@@ -52,4 +52,7 @@ linux/arm/v7
 https://hub.docker.com/r/arm32v7/postgres/
 
 https://github.com/postgis/docker-postgis
+
+https://hub.docker.com/r/tobi312/rpi-postgresql-postgis/
+
 

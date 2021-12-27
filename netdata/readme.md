@@ -15,6 +15,13 @@ docker run -d --name=netdata \
   --security-opt apparmor=unconfined \
   netdata/netdata
 
+diskspace.plugin
+[plugin:proc:diskspace:/host]
+	space usage = yes
+	inodes usage = yes
+
+https://github.com/netdata/netdata/pull/5327
+
 # Links
 
 https://github.com/netdata/netdata/
