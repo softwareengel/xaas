@@ -18,6 +18,8 @@
   
   git config --global user.name "Your Name"
 
+  git config --global http.sslverify false
+
   git clone https://github.com/softwareengel/xaas
 
 # docker 
