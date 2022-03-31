@@ -1,0 +1,30 @@
+---
+schemaVersion: 2.0.0
+fileExistenceTests:
+  - name: 'plugins.txt'
+    path: '/usr/share/jenkins/ref/plugins.txt'
+    shouldExist: true
+  - name: 'default plugin - kubernetes'
+    path: '/usr/share/jenkins/ref/plugins/kubernetes.jpi'
+    shouldExist: true
+  - name: 'default plugin - workflow-aggregator'
+    path: '/usr/share/jenkins/ref/plugins/workflow-aggregator.jpi'
+    shouldExist: true
+  - name: 'default plugin - git'
+    path: '/usr/share/jenkins/ref/plugins/git.jpi'
+    shouldExist: true
+  - name: 'default plugin - configuration-as-code'
+    path: '/usr/share/jenkins/ref/plugins/configuration-as-code.jpi'
+    shouldExist: true
+  - name: 'EC2 Agents'
+    path: '/usr/share/jenkins/ref/plugins/ec2.jpi'
+    shouldExist: true
+  - name: 'Azure VM Agents'
+    path: '/usr/share/jenkins/ref/plugins/azure-vm-agents.jpi'
+    shouldExist: true
+  - name: 'Azure Container Agents'
+    path: '/usr/share/jenkins/ref/plugins/azure-container-agents.jpi'
+    shouldExist: true
+  - name: 'OpenTelemetry Plugin'
+    path: '/usr/share/jenkins/ref/plugins/opentelemetry.jpi'
+    shouldExist: true

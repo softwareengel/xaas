@@ -36,13 +36,6 @@ https://maker-tutorials.com/docker-raspberry-pi-installieren-raspbian-debian-str
 
 docker update --restart=always <container>
 
-# python webserver 
-
-# jenkins 
-
-# nginx reverse proxy 
-
-  
 ##  usb drive 
 sudo apt-get -y install ntfs-3g hfsutils hfsprogs exfat-fuse
 
